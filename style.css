@@ -79,13 +79,43 @@ section.menu{
 /*Sección Title*/
 
 section.title{
+    display: flex;
+    padding-top: 3rem;
     
+}
+
+.title__div{
+    display: flex;
+    align-items: center;
+}
+
+.title__profile{
+    
+}
+
+.title__container{
+    
+}
+
+.title__bio{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.title__subsection{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.title__network__item{
+    display:inline-flex;
+    padding-right: 2rem;
 }
 
 /*Sección About*/
 
 section.about{
-
+    
 }
 
 /*Sección Hobbies*/
