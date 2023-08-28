@@ -13,7 +13,7 @@ coloque nas sessões indicadas*/
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
+    background-color: var(--cor-de-fundo);
     font-family: 'Raleway';
     margin: 0;
     padding: 0;
@@ -186,13 +186,86 @@ section.hobbies{
 /* Experiencia Académica*/
 
 section.academic{
+  
+}
 
+.academic__title{
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+.academic__courses{
+    display: flex;
+}
+
+.academic__courses__box{
+    height: 250px;
+    width: 368px;
+    margin-left: 1rem;
+    background-color: white;
 }
 
 /* experiencia*/
 
 section.experience{
 
+}
+
+.experience__section__title{
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+.experiencie__box{
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experience__imgl{
+    width: 700px;
+    height: 378px;
+    margin-right: 1rem;
+}
+
+.experience__imgr{
+    width: 700px;
+    height: 378px;
+    margin-left: 1rem;
+}
+
+.experience__title{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.experience__text{
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.experiencia__botao--repo{
+    border-color: #2A7AE4;
+    color: #2A7AE4;
+    width: 99px;
+    height: 44px;
+    background-color: var(--cor-de-fundo);
+    margin-right: .5rem;
+}
+
+.experience__botao--demo{
+    background-color: #2A7AE4;
+    color: white;
+    width: 99px;
+    height: 44px;
 }
 
 /*Contacto*/
