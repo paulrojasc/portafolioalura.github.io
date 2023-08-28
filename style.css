@@ -264,6 +264,7 @@ section.experience{
 .experience__botao--demo{
     background-color: #2A7AE4;
     color: white;
+    border: none;
     width: 99px;
     height: 44px;
 }
@@ -274,10 +275,69 @@ section.formcontato{
 
 }
 
+.formcontato__img{
+    height: 579px;
+    width: 452px;
+}
+
+.formcontato__contacto{
+    display: flex;
+}
+
+.formcontato--esquerda{
+    margin-right: 1rem;
+}
+
+.formcontato__title{
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.formcontato__subtext{
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.formcontato__input{
+    width: 556px;
+    height: 43px;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 3px;
+}
+
+::placeholder{
+    color: #A2A2A2;
+    padding-left: 1rem;
+}
+
+.formcontato__textarea{
+    resize: none;
+    width: 556px;
+    height: 133px;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.formcontato__botao{
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+    width: 120px;
+    height: 44px;
+}
+
 /*footeer*/
 
 section.footer{
-   
+   background-color: white;
+   height: 88px;
+   margin-top: 3rem;
+   padding-top: 1.5rem;
+   text-align: center;
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
